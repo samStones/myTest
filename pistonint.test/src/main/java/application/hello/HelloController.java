@@ -10,7 +10,6 @@ public class HelloController {
 	public String sayHello(){
 		
 		System.out.println("我要搞冲突");
-		System.out.println("我要解决冲突");
 		System.out.println("我要搞冲突");
 		
 		return "hello SpringBoot";
