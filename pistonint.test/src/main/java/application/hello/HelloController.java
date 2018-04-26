@@ -9,6 +9,9 @@ public class HelloController {
 	@GetMapping("/hello")
 	public String sayHello(){
 		
+		System.out.println("我要搞冲突");
+		System.out.println("我要解决冲突");
+		
 		return "hello SpringBoot";
 	}
 }
