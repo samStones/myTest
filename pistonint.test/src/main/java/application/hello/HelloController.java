@@ -11,6 +11,7 @@ public class HelloController {
 		
 		System.out.println("我要搞冲突");
 		System.out.println("我要解决冲突");
+		System.out.println("我要gao冲突");
 		
 		return "hello SpringBoot";
 	}
